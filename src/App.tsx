@@ -6,7 +6,12 @@ import BaseComponent from './BaseComponent/BaseComponent';
 function App() {
   return (
     <div>
-      <BaseComponent title ='arc'/>
+      <BaseComponent 
+      ComponyName = 'ComponyName:- GlobalLogic'
+      EmpName = 'EmpName:- Swapnil Rahangdale'
+      age = {26}
+      address='Address :- Nagpur'
+      />
     </div>
   );
 }

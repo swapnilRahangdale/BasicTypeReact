@@ -3,23 +3,27 @@ import './BaseComponent.scss'
 
 const BaseComponent: React.FC<
 {
-    title:string,
-    name?:string            // this are all props ke object or type defination of props
-}                          //type
+    ComponyName:string,
+    EmpName:string,                                  // this are all props ke object or type defination of props
+    age:number,                               //type
+    address:string         
+}                          
 
 
 
 > =(props) =>{
 
-    const {title, name} = props;                          //object    functional object
+    const {ComponyName, EmpName, age, address} = props;                          //object    functional object
 
    
     return(
        
         <div className="title">
                                                             
-            <p>{title}</p>
-            
+            <h1>{ComponyName}</h1> <br/>
+            <p>{EmpName}</p>
+            <p>{age}</p>
+            <p>{address}</p>
 
         </div>
 
