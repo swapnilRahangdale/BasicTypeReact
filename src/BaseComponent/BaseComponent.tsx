@@ -3,28 +3,33 @@ import './BaseComponent.scss'
 
 const BaseComponent: React.FC<
 {
+<<<<<<< HEAD
     ComponyName:string,
     EmpName:string,                                  // this are all props ke object or type defination of props
     age:number,                                     //  type
     address:string             
+=======
+    name:string,
+    age:number,
+    mob:number,
+    email:string        
+>>>>>>> e4df7090fa66a329b39488d44cbb538ca935ff92
 }                          
 
 
 
-> =(props) =>{
+> =(newUserData) =>{
 
-    const {ComponyName, EmpName, age, address} = props;                          //object    functional object
-
+                             
+    const stringAndNumber :(string | number) [] =['Pratik' ,24, 7098989510, 'sr@.com','    ',
+    'Rahul',56, 89451455,'jdk@g.com','     ',
+    'Abhilash',36, 894821455,'abhilash@g.com']
    
     return(
        
-        <div className="title">
-                                                            
-            <h1>{ComponyName}</h1> <br/>
-            <p>{EmpName}</p>
-            <p>{age}</p>
-            <p>{address}</p>
-
+        <div>
+            <p>{stringAndNumber}</p>
+            
         </div>
 
     )
