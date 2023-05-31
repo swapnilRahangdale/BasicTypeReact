@@ -24,6 +24,7 @@ const UserManagment:React.FC<{
     const [company, setCompany] = useState<companyType>('TCS')
 
 
+    
     const userArr :userType[] = [
         {
         name : 'Tejas',
@@ -68,7 +69,7 @@ const UserManagment:React.FC<{
 
         <div className= { styless[classValue]}>
 
-         <p>User Manegment</p>
+         
 
          <input type = "text" name = "name" 
           value = {name}
@@ -88,6 +89,8 @@ const UserManagment:React.FC<{
           }} />
 
          <button onClick={saveUserData}>Save</button>
+
+         <h3>User Manegment</h3>
 
          {userArrData}
 
