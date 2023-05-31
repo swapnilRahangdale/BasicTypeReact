@@ -8,7 +8,7 @@ type userType = {
     name : string,
     age : number,
     company : companyType
-    
+
 }
 
 const UserManagment:React.FC<{
