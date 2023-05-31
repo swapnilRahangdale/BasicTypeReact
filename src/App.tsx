@@ -1,19 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import BaseComponent from './BaseComponent/BaseComponent';
+//import BaseComponent from './BaseComponent/BaseComponent';
+import UserManagment from './UserManagment/UserManagment';
+
+
 
 function App() {
   return (
     <div>
-      <BaseComponent 
+
+      {/* <BaseComponent 
       ComponyName = 'ComponyName:- GlobalLogic'
       EmpName = 'EmpName:- Swapnil Rahangdale'
       age = {26}
       address='Address :- Nagpur'
-      />
+      /> */}
+
+     
+      <UserManagment isLogin={true}/>
+
     </div>
   );
 }
 
-export default App;
+ export default App;
+
+

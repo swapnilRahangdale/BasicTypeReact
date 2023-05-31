@@ -5,8 +5,8 @@ const BaseComponent: React.FC<
 {
     ComponyName:string,
     EmpName:string,                                  // this are all props ke object or type defination of props
-    age:number,                               //type
-    address:string         
+    age:number,                                     //  type
+    address:string             
 }                          
 
 
